@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Pawsitive Companions - Services</title>
+  <meta name='description' content='Explore our core dog care services: Daycare, Boarding, Grooming, Training at Pawsitive Companions in Nadargul, Telangana.'>
+  <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap' rel='stylesheet'>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <style>
+    .font-poppins{ font-family: 'Poppins', sans-serif; }
+    .font-open-sans{ font-family: 'Open Sans', sans-serif; }
+  </style>
+</head>
+<body class='bg-white text-gray-800'>
+  <!-- Header -->
+  <header class='bg-white/90 backdrop-blur-lg sticky top-0 shadow-sm'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8' aria-label='Top'>
+      <div class='flex items-center justify-between h-16'>
+        <a href='index.html' class='text-2xl font-semibold' style="font-family: 'Poppins', sans-serif; color:#4a90e2">Pawsitive Companions</a>
+        <div class='hidden md:flex space-x-8'>
+          <a href='index.html' class='text-gray-700 hover:text-sky-600'>Home</a>
+          <a href='services.html' class='text-gray-700 hover:text-sky-600'>Services</a>
+          <a href='daycare.html' class='text-gray-700 hover:text-sky-600'>Daycare</a>
+          <a href='boarding.html' class='text-gray-700 hover:text-sky-600'>Boarding</a>
+          <a href='grooming.html' class='text-gray-700 hover:text-sky-600'>Grooming</a>
+          <a href='training.html' class='text-gray-700 hover:text-sky-600'>Training</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id='content' class='p-6' style="font-family: 'Open Sans', sans-serif;">
+    <section class='mb-8'>
+      <h1 class='text-3xl font-semibold font-poppins'>Our Services</h1>
+      <p class='text-gray-700 mt-2'>Explore our four core offerings designed to keep your dog healthy, happy, and well-behaved.</p>
+    </section>
+
+    <section class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6'>
+      <article class='p-5 bg-white rounded-lg shadow'>
+        <h2 class='font-semibold font-poppins'>Dog Daycare</h2>
+        <p class='text-sm text-gray-700'>Structured playgroups, supervised by trained staff. Daily schedules include playtime, guided activities, and rest periods.</p>
+        <a href='daycare.html' class='inline-block mt-3 text-sky-600'>Learn More</a>
+      </article>
+      <article class='p-5 bg-white rounded-lg shadow'>
+        <h2 class='font-semibold font-poppins'>Dog Boarding</h2>
+        <p class='text-sm text-gray-700'>Private suites, cozy kennels, and 24/7 care. Your dog sleeps safely and comfortably while you’re away.</p>
+        <a href='boarding.html' class='inline-block mt-3 text-sky-600'>Learn More</a>
+      </article>
+      <article class='p-5 bg-white rounded-lg shadow'>
+        <h2 class='font-semibold font-poppins'>Dog Grooming</h2>
+        <p class='text-sm text-gray-700'>Baths, trims, and pawdicure using premium, pet-safe products.</p>
+        <a href='grooming.html' class='inline-block mt-3 text-sky-600'>Learn More</a>
+      </article>
+      <article class='p-5 bg-white rounded-lg shadow'>
+        <h2 class='font-semibold font-poppins'>Dog Training</h2>
+        <p class='text-sm text-gray-700'>Positive reinforcement classes for puppy socialization, basic obedience, and advanced skills.</p>
+        <a href='training.html' class='inline-block mt-3 text-sky-600'>Learn More</a>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer (same as index for consistency) -->
+  <footer class='bg-stone-800 text-gray-300 mt-8'>
+    <div class='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-8'>
+      <section aria-label='Footer Brand'>
+        <h4 class='text-xl font-semibold' style="font-family: 'Poppins', serif;">Pawsitive Companions</h4>
+        <p class='mt-2 text-sm text-gray-300'>Your dog's home away from home. Trusted care with transparency and love.</p>
+      </section>
+      <section aria-label='Footer Quick Links'>
+        <h5 class='text-lg font-semibold' style="font-family: 'Open Sans', sans-serif;">Quick Links</h5>
+        <ul class='space-y-2 text-sm'>
+          <li><a href='daycare.html' class='hover:text-white'>Daycare</a></li>
+          <li><a href='boarding.html' class='hover:text-white'>Boarding</a></li>
+          <li><a href='grooming.html' class='hover:text-white'>Grooming</a></li>
+          <li><a href='training.html' class='hover:text-white'>Training</a></li>
+        </ul>
+      </section>
+      <section aria-label='Footer Newsletter'>
+        <h5 class='text-lg font-semibold' style="font-family: 'Open Sans', sans-serif;">Newsletter</h5>
+        <form class='flex space-x-2 mt-2' onsubmit='return false;'>
+          <input type='email' placeholder='Your email' class='w-full border rounded px-3 py-2' required />
+          <button class='bg-yellow-500 text-white px-4 py-2 rounded'>Subscribe</button>
+        </form>
+      </section>
+    </div>
+    <hr class='border-gray-700'>
+    <div class='text-center py-2 text-sm text-gray-400'>© 2025 Pawsitive Companions. All rights reserved.</div>
+  </footer>
+
+  <script>
+    // Simple page load
+    window.addEventListener('load', ()=> document.body.style.opacity = 1);
+  </script>
+</body>
+</html>
